@@ -1,4 +1,4 @@
-const { Client, MessageEmbed } = require("discord.js");
+aconst { Client, MessageEmbed } = require("discord.js");
 const client = new Client({ignoreDirect: true, ignoreRoles: true, ignoreEveryone: true});
 const Exeal = require('./Exeal.json')
 client.setMaxListeners(50);
